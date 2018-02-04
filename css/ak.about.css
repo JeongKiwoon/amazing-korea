@@ -33,7 +33,7 @@
 .logo-image {
 	position: absolute;
 	width: 60px; height: 60px;
-	background-image: url('/image/logo.png');
+	background-image: url('image/logo.png');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;

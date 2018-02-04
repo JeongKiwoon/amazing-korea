@@ -23,7 +23,7 @@
 .back {
   width: 56px;
   height: 56px;
-  background-image: url('/image/btn-back.png');
+  background-image: url('image/btn-back.png');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
