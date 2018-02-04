@@ -1,0 +1,58 @@
+{
+	
+	"item1":
+	{
+		"url": "https://www.youtube.com/embed/iU3F08twW38",
+		"num": 1,
+		"author": "handblossom",
+		"title": "[ENG/KOR] ′아버지 묘의 풀을 베며′ - 샘김(Sam Kim) lyrics video",
+		"runtime": "04:34"
+	},	
+	
+	"item2":
+	{
+		"url": "https://www.youtube.com/embed/gxEAsE-xbzc",
+		"num": 2,
+		"author": "THECUT",
+		"title": "[PRIMARY] shininryu sessions - ~42 (Feat. 샘김 (SAM KIM), 에스나 (eSNa))",
+		"runtime": "03:41"
+	},
+	
+	"item3":
+	{
+		"url": "https://www.youtube.com/embed/7TnK6iitTYg",
+		"num": 3,
+		"author": "GENIE MUSIC",
+		"title": "샘김 SAM KIM - NO눈치 No Sense (feat. Crush) Official M/V",
+		"runtime": "03:40"
+	},
+
+	"item4":
+	{
+		"url": "https://www.youtube.com/embed/UfdCgFcG9Bs",
+		"num": 4,
+		"author": "Antenna",
+		"title": "샘김 - 'Officially Missing You' cover (원곡:Tamia)",
+		"runtime": "02:06"
+	},
+
+	"item5":
+	{
+		"url": "https://www.youtube.com/embed/bV8D7UQophQ",
+		"num": 5,
+		"author": "GENIE MUSIC",
+		"title": "샘김 SAM KIM - MAMA DON'T WORRY Official M/V",
+		"runtime": "05:49"
+	},
+
+	"item6":
+	{
+		"url": "https://www.youtube.com/embed/F_zem1MftbQ",
+		"num": 6,
+		"author": "Antenna",
+		"title": "샘김 SAMKIM 시애틀 SEATTLE MV (WITH 이진아 LEEJINAH)",
+		"runtime": "05:17"
+	}
+
+}
+

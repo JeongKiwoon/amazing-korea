@@ -1,0 +1,221 @@
+	@media only screen
+	and (max-width: 1439px) {
+		.mainList {
+			width: 300px;
+			height: 100%;
+		}
+		
+		#about {
+			width: calc(100vw - 300px);
+		}
+					
+		#player {
+			width: calc(100vw - 300px);
+		}
+		
+		#playList {
+			width: calc(100vw - 300px);
+		}
+
+	}
+
+	@media only screen
+	and (max-width: 1024px) {
+		
+		.loading-circle {
+			transform: scale(0.5) translate(-100%, -100%);
+		}
+		
+		.loading-boundary {
+			transform: scale(0.5) translate(-100%, -100%);
+		}
+		
+		#about {
+			width: 100vw;
+			padding: 16px;
+		}
+
+		.title-logo {
+			font-size: 12px;
+			top: 16px;
+			right: 16px;
+		}
+
+		.logo-image {
+			width: 40px;
+			height: 40px;
+		}
+
+		.article {
+			top: 56px;
+			font-size: 18px;
+			line-height: 1.5em;
+		}
+
+		.footer {
+			font-size: 9px;
+			bottom: 34px;
+		}		
+		
+		.line-change {
+			display: inline;
+		}
+
+
+		#playList {
+			font-size: 10px;
+		}
+		
+		#listWrapper {
+			position: absolute;
+		    width: 100%;
+		    bottom: 0;
+		    height: 24px;
+		    overflow: hidden;
+		    border-radius: 15px 15px 0 0;
+		    box-shadow: 0 -2px 5px rgba(0, 0, 0, .25);
+		    opacity: 1;
+		}
+		
+		.onplay-wrapper {
+			position: static !important;
+			width: initial !important;
+		    bottom: initial !important;
+		    height: initial !important;
+		    overflow: initial !important;
+		    border-radius: initial !important;
+		    box-shadow: initial !important;
+		}
+		
+		.mainList {
+			position: absolute;
+			bottom: 0;
+			width: 100vw;
+			/*height: 24px;*/
+			/*box-shadow: 0 -2px 5px rgba(0, 0, 0, .25);*/
+			border-radius: 15px 15px 0 0;
+		}
+		
+		.hanger {
+			position: absolute;
+			border-radius: 15px 15px 0 0;
+			top: 0;
+			width: 100%;
+			height: 24px;
+			background-color: #ffffff;
+		    border-bottom: 1px solid rgba(0, 0, 0, .06);
+			z-index: 200;
+			cursor: pointer;
+			text-align: center;
+			/*background-image: url('/image/btn-extend.png');*/
+		    /*background-repeat: no-repeat;*/
+		    /*background-position: center center;*/
+		}
+		
+		.btn-extend {
+			display: inline-block;
+		}
+		
+		.m-height {
+		    height: 400px;
+		}
+
+		.info-container {
+	    padding-left: 16px;    
+		}
+
+		.list-item {
+			top: 24px;
+		}
+		
+		.list-item:hover {
+		    background-color: initial;
+		}
+		
+		.list-item-2 {
+			top: 0;
+		}
+
+		.list-item::before {
+	    width: calc(100% - 16px);
+	    margin-left: 16px;
+		}
+		
+		
+		.onplay {
+			position: static;
+	    	width: calc(100vw - 20px);
+	    	margin: 7px 0 7px 10px;
+	    	margin-left: 10px;
+	    	padding-left: 16px;
+	    	height: 48px !important;
+	    	top: 20px;
+	    	border-radius: 5px;
+	    	box-shadow: 1px 1px 5px rgba(0, 0, 0, .25);
+	    	box-sizing: border-box;
+	    	white-space: nowrap;
+	    	overflow-x: scroll;
+	    	overflow-y: hidden;			
+		}
+
+		.list-item {
+			height: 48px;
+		}
+
+		.celeb-job {
+			font-size: 10px;
+			line-height: 15px;
+		}
+
+		.celeb-name {
+			font-size: 12px;
+			line-height: 18px;
+		}
+
+		
+		.celeb-job-2 {
+			display: none;
+		}
+
+		.list-item-2 {
+	    position: relative;
+	    display: inline-block;
+	    width: initial;
+	    height: 48px;
+	    padding: 0 16px 0 16px;
+	    cursor: pointer;
+		}
+
+		.list-item-2::before {
+			content: initial;
+		}
+
+		.info-container-2 {
+			position: relative;
+			padding-left: initial;
+			top: initial;
+			transform: initial;
+		}
+
+		.celeb-name-2 {
+			font-size: 10px;
+			line-height: 48px;
+			font-weight: bold;
+		}
+		
+	
+		#player {
+			position: static;
+			width: 100vw;
+			padding: 10px 10px 3px 10px;
+			box-sizing: border-box;
+		}
+		
+		#playList {
+			position: static;
+			width: 100vw;
+			padding: 3px 10px 10px 10px;
+			box-sizing: border-box;
+		}
+		
+	}

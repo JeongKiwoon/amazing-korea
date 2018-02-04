@@ -1,0 +1,68 @@
+#about {
+    position: absolute;
+    display: inline-block;
+    background-color: transparent;
+    width: calc(100% - 600px);
+    height: 100%;
+    font-family: 'Poppins', 'Sans-serif';
+    padding: 24px;
+    box-sizing: border-box;
+    z-index: 90;
+
+    /*display: none;*/
+}
+
+	.title-logo {
+		position: absolute;
+		display: inline-block;
+		top: 24px;
+		right: 24px;
+		font-size: 16px;
+		font-style: italic;
+		font-weight: 700;
+	}
+
+.about-info {
+	position: absolute;
+	width: 90%;
+	height: 200px;
+	top: 50%;
+	transform: translate(0, -70%);
+}
+
+.logo-image {
+	position: absolute;
+	width: 60px; height: 60px;
+	background-image: url('/image/logo.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+	.article {
+		position: absolute;
+		font-weight: 700;
+		font-size: 22px;
+		line-height: 32px;
+		top: 84px;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f50707+35,183cf5+64 */
+background: #f50707; /* Old browsers */
+background: -moz-linear-gradient(top, #f50707 35%, #183cf5 64.64%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #f50707 35%,#183cf5 64.64%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #f50707 35%,#183cf5 64.64%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f50707', endColorstr='#183cf5',GradientType=0 ); /* IE6-9 */
+		-webkit-background-clip: text;
+  		-webkit-text-fill-color: transparent;
+	}
+
+	.footer {
+		font-size: 14px;
+		position: absolute;
+		bottom: 24px;
+		opacity: .5;
+		font-style: italic;
+	}
+	
+	.link {
+		border-bottom: 2px solid blue;
+	}

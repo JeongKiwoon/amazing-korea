@@ -1,0 +1,48 @@
+{
+	"item1":
+	{
+		"url": "https://www.youtube.com/embed/Hjlzni0Dhqc",
+		"num": 1,
+		"author": "medici.tv",
+		"title": "조성진 - 쇼팽 콩쿠르 - 결선",
+		"runtime": "02:49"
+	},
+	
+	"item2":
+	{
+		"url": "https://www.youtube.com/embed/Sjf4ZOQBnr4",
+		"num": 2,
+		"author": "유니버설 뮤직 코리아 Universal Music Korea",
+		"title": "조성진, 쇼팽 발라드 1번을 말하다!",
+		"runtime": "08:50"
+	},
+
+	"item3":
+	{
+		"url": "https://www.youtube.com/embed/614oSsDS734",
+		"num": 3,
+		"author": "Chopin Institute",
+		"title": "Seong-Jin Cho – Piano Concerto in E minor Op. 11 (final stage of the Chopin Competition 2015)",
+		"runtime": "40:51"
+	},
+
+	"item4":
+	{
+		"url": "https://www.youtube.com/embed/T624vwcscvE",
+		"num": 4,
+		"author": "Cho Rabbit",
+		"title": "Seong-jin cho Rachmaninoff piano concerto no.2 in C minor. (NDR Elbphilharmonie)",
+		"runtime": "35:27"
+	},
+
+	"item5":
+	{
+		"url": "https://www.youtube.com/embed/97_VJve7UVc",
+		"num": 5,
+		"author": "crediatv",
+		"title": "[Seong-Jin Cho 조성진] Debussy Claire de lune 드뷔시 달빛",
+		"runtime": "05:33"
+	}
+
+}
+

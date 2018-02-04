@@ -1,0 +1,107 @@
+{
+	"item1":
+	{
+		"job": "Soccer player",
+		"name": "JI-SUNG PARK",
+		"dname": "jisung"
+	},
+
+	"item2":
+	{
+		"job": "Figure skater",
+		"name": "YUNA KIM",
+		"dname": "yuna"
+	},
+
+	"item3":
+	{
+		"job": "Soccer player",
+		"name": "HEUNG-MIN SON",
+		"dname": "heungmin"
+	},
+
+	"item4":
+	{
+		"job": "Singer",
+		"name": "DPR LIVE",
+		"dname": "dprlive"
+	},
+
+	"item5":
+	{
+		"job": "Singer",
+		"name": "PSY",
+		"dname": "psy"
+	},
+
+	"item6":
+	{
+		"job": "Dance team",
+		"name": "JUST JERK",
+		"dname": "justjerk"
+	},
+
+	"item7":
+	{
+		"job": "Singer",
+		"name": "BEWHY",
+		"dname": "bewhy"
+	},
+
+	"item8":
+	{
+		"job": "Singer",
+		"name": "BTS",
+		"dname": "bts"
+	},
+
+	"item9":
+	{
+		"job": "Singer",
+		"name": "BIGBANG",
+		"dname": "bigbang"
+	},
+
+	"item10":
+	{
+		"job": "Singer",
+		"name": "AKDONG MUSICIAN",
+		"dname": "akdong"
+	},
+
+	"item11":
+	{
+		"job": "Pianist",
+		"name": "SEONG-JIN CHO",
+		"dname": "seongjin"
+	},
+
+	"item12":
+	{
+		"job": "Baseball player",
+		"name": "CHAN-HO PARK",
+		"dname": "chanho"
+	},
+
+	"item13":
+	{
+		"job": "Baseball player",
+		"name": "SHIN-SOO CHOO",
+		"dname": "shinsoo"
+	},
+
+	"item14":
+	{
+		"job": "Singer",
+		"name": "SAM KIM",
+		"dname": "samkim"
+	},
+
+	"item15":
+	{
+		"job": "Entertainment",
+		"name": "MOVIES",
+		"dname": "movies"
+	}
+	
+}

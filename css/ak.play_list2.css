@@ -1,0 +1,89 @@
+#playList {
+    position: absolute;
+    background-color: transparent;
+    width: calc(100% - 600px);
+    padding: 0 10px 10px 10px;
+    box-sizing: border-box;
+    bottom: 0;
+    display: none;
+    opacity: 0;
+    z-index: 10;
+}
+
+#playList > .playlist-child {
+    background-color: #ffffff;
+    width: 100%; height: 100%;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	border-radius: 5px;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, .25);
+}
+
+
+.back {
+  width: 56px;
+  height: 56px;
+  background-image: url('/image/btn-back.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  bottom: 26px;
+  right: 26px;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, .25);
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 999;
+}
+
+.playlist-child::-webkit-scrollbar {
+	display: none;
+}
+
+.record {
+	cursor: pointer;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  height: 48px;
+  /*border-bottom: 1px solid rgba(0,0,0,0.06);*/
+  opacity: 0.9;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+	.record-item {
+		display: inline-block;
+		vertical-align: middle;
+		line-height: 48px;
+	}
+
+	.num {
+	    width: 7%;
+	    text-align: center;
+	}	
+
+	.author {
+		width: 22%;
+		text-align: left;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+	}
+
+	.title {
+		width: 52%;
+		text-align: left;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+	}
+
+	.runtime {
+		width: 16.5%;
+		text-align: right;
+	}
+
+
+

@@ -1,0 +1,76 @@
+@charset 'utf-8';
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,400,700,800');
+
+html, body {
+	background-color: #ffffff;
+    font-size: 16px;
+    width: 100%; height: 100%;
+    overflow: hidden;
+    font-family: 'Spoqa Han Sans', 'Helvetica nenu', 'Helvetica', 'Sans-serif';
+    color: #2e383d;
+    /*box-sizing: border-box;*/
+    -webkit-tap-highlight-color: transparent;
+    -webkit-overflow-scrolling: touch;
+}
+
+#app {
+    position: relative;
+    background-color: #ffffff;
+    width: 100%; height: 100%;
+    overflow: hidden;
+}
+
+.onair {
+    color: #0000ff;
+}
+
+.selected {
+   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cd2e3a+0,0047a0+100 */
+    background: #cd2e3a; /* Old browsers */
+    background: -moz-linear-gradient(left, #cd2e3a 0%, #0047a0 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #cd2e3a 0%,#0047a0 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #cd2e3a 0%,#0047a0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cd2e3a', endColorstr='#0047a0',GradientType=1 ); /* IE6-9 */
+    color: #ffffff;
+}
+
+.selected:hover {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cd2e3a+0,0047a0+100 */
+    background: #cd2e3a !important; /* Old browsers */
+    background: -moz-linear-gradient(left, #cd2e3a 0%, #0047a0 100%) !important; /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #cd2e3a 0%,#0047a0 100%) !important; /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #cd2e3a 0%,#0047a0 100%) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cd2e3a', endColorstr='#0047a0',GradientType=1 ); /* IE6-9 */
+    color: #ffffff !important;   
+}
+
+#trigger {
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    bottom: 0;
+}
+
+.btn-extend {
+    display: none;    
+}
+
+.line-change {
+    display :none;
+}
+
+/** Typography
+
+* size: 14px; line-height: 18px;
+* size: 16px; line-height: 22px;
+* 
+
+*/
+
+/** Color
+
+*/
+
+
+

@@ -1,0 +1,62 @@
+.mainList {
+    position: absolute;
+    display: inline-block;
+    width: 600px;
+    height: 100%;
+    right: 0;
+    background-color: #ffffff;
+    border-radius: 20px 0 0 20px;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, .25);
+    overflow-x: hidden;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling:touch;
+    z-index: 100;
+}
+
+.mainList::-webkit-scrollbar {
+    display: none;
+}
+
+.list-item {
+    transition: 0.4s;
+    position: relative;
+    width: 100%;
+    height: 76px;
+    cursor: pointer;
+}
+
+.list-item:hover {
+    background-color: rgba(0, 0, 0, .05);
+}
+
+.list-item::before {
+    position: absolute;
+    content: '';
+    width: calc(100% - 48px);
+    height: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, .06);
+    box-sizing: border-box;
+    margin-left: 24px;
+}
+
+.info-container {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    padding-left: 48px;    
+}
+
+.celeb-job {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    opacity: .5;
+    color: inherit;
+}
+
+.celeb-name {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 22px;
+    color: inherit;
+}
