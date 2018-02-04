@@ -61,7 +61,7 @@ $(function () {
 		}
 
 		function makeMainList() {
-			$.getJSON('/data/main-data2.json', function (data) {
+			$.getJSON('data/main-data2.json', function (data) {
 				
 				$.each(data, function(key, value) {
 					$mainList.append(
@@ -155,7 +155,7 @@ $(function () {
 	
 				var $data = $(this).data('json');
 			
-				$.getJSON('/data/' + $data +'.json', function (data) {
+				$.getJSON('data/' + $data +'.json', function (data) {
 	
 			   		$.each(data, function(key, value) {
 			   			_cue.push(value.url);
