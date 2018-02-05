@@ -2,7 +2,8 @@
 
 $(function () {
 
-		var $mainList = $('.mainList'),
+		var 	$app = $('#app'),
+			$mainList = $('.mainList'),
 			$player = $('#player'),
 			$playList = $('#playList'),
 			$playerChild = $('.player-child'),
@@ -113,6 +114,12 @@ $(function () {
 		/* Event Handler */
 		function onResize(e) {
 	
+			var sw = window.innerWidth;
+			var sh = window.innerHeight;
+			
+			$app.width = sw;
+			$app.height = sh;
+			
 			var _playerW = $player.css('width');
 			var arr = _playerW.split('px');
 			var ph = parseInt((arr[0] / 16) * 9);
@@ -124,6 +131,12 @@ $(function () {
 		} // onResize
 	
 		function onResizeM(e) {
+
+			var sw = window.innerWidth;
+			var sh = window.innerHeight;
+			
+			$app.width = sw;
+			$app.height = sh;			
 			
 			var _playerW = $player.css('width'),
 				arr = _playerW.split('px'),
