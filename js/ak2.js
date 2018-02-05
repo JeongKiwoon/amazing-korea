@@ -218,6 +218,7 @@ $(function () {
 			
 			is_show = false;
 			is_first_scroll = true;
+			$playerChild.attr('src', '');
 	
 		} // onGoBack
 
