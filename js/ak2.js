@@ -140,19 +140,19 @@ $(function () {
 			var sw = window.innerWidth;
 			var sh = window.innerHeight;
 
+			var _playerW = $player.css('width');
+			var arr = _playerW.split('px');
+			var ph = parseInt((arr[0] / 16) * 9);
+			var LIST_HEIGHT = 48;
+			var plh = ph + LIST_HEIGHT + 13;
+
 			$app.width = sw;
 			$app.height = sh;
 
 			if (sh <= 800) {
 				$playList.css('height', 200);
-				$player.css('height', '100%').css('height', '-=' + 200);
+				$player.css('height', '100%').css('height', '-=' + 262); // 200 = pl-height, 62 = mainlist-height
 			} else {
-				var _playerW = $player.css('width');
-				var arr = _playerW.split('px');
-				var ph = parseInt((arr[0] / 16) * 9);
-				var LIST_HEIGHT = 48;
-				var plh = ph + LIST_HEIGHT + 13;
-
 				$player.css('height', ph);
 				// $playList.css('height', 'calc(100% - ' + ph + ')');
 				$playList.css('height', '100%').css('height', '-=' + plh );
