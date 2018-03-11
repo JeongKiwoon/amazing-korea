@@ -194,7 +194,7 @@ $(function () {
 			   			_cue.push(value.url);
 
 			   			$playListChild.append(
-								'<li class="record" data-index="' + i +'" data-history="' + value.num + value.author + '">'
+								'<li class="record" data-index="' + i +'">'
 									+ '<div class="num record-item">' + value.num + '</div>'
 									+ '<div class="author record-item">' + value.author + '</div>'
 									+ '<div class="title record-item">' + value.title + '</div>'
@@ -209,7 +209,12 @@ $(function () {
 
 		   			// init
 				   	$playerChild.attr('src', _cue[0]);
-				   	$firstRecord.addClass('onair');
+						$playerChild.data('id', $('.player-child').attr('src'));
+
+						if ($playerChild.attr('src') === $playerChild.data('id')) {
+							$firstRecord.css('color', 'blue');
+						}
+				   	// $firstRecord.addClass('onair');
 
 		  		});
 			}
