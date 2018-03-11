@@ -188,6 +188,7 @@ $(function () {
 			if (is_signal) {
 
 				var $data = $(this).data('json');
+				history.pushState({}, '', './' + $data);
 
 				$.getJSON('data/' + $data +'.json', function (data) {
 
@@ -252,7 +253,7 @@ $(function () {
 			_siblings = $(this).siblings();
 			_history = $(this).data('history');
 
-			history.pushState({}, '', '/' + _history);
+			// history.pushState({}, '', '/' + _history);
 
 			$playerChild.attr('src', _cue[_vindex]);
 			$(this).addClass('onair');
