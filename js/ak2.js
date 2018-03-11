@@ -188,10 +188,8 @@ $(function () {
 			if (is_signal) {
 
 				var $data = $(this).data('json');
-				history.pushState({}, '', './' + $data);
 
 				$.getJSON('data/' + $data +'.json', function (data) {
-
 			   		$.each(data, function(key, value) {
 			   			_cue.push(value.url);
 			   			$playListChild.append(
