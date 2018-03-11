@@ -194,7 +194,7 @@ $(function () {
 			   		$.each(data, function(key, value) {
 			   			_cue.push(value.url);
 			   			$playListChild.append(
-								'<li class="record" data-index="' + i +'">'
+								'<li class="record" data-index="' + i +'" data-history="' + value.num + value.author + '">'
 									+ '<div class="num record-item">' + value.num + '</div>'
 									+ '<div class="author record-item">' + value.author + '</div>'
 									+ '<div class="title record-item">' + value.title + '</div>'
@@ -246,12 +246,13 @@ $(function () {
 		function onPlayAnotherVideo(e) {
 			e.preventDefault();
 
-			var _vindex, _siblings;
+			var _vindex, _siblings, _history;
 
 			_vindex = $(this).data('index');
 			_siblings = $(this).siblings();
+			_history = $(this).data('history');
 
-			history.pushState({}, '', '/' + _vindex);
+			history.pushState({}, '', '/' + _history);
 
 			$playerChild.attr('src', _cue[_vindex]);
 			$(this).addClass('onair');
