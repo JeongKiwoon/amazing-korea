@@ -257,8 +257,14 @@ $(function () {
 			_siblings = $(this).siblings();
 
 			$playerChild.attr('src', _cue[_vindex]);
-			$(this).addClass('onair');
-			_siblings.removeClass('onair');
+			$playerChild.data('id', $playerChild.attr('src'));
+
+
+			if ($playerChild.attr('src') === $playerChild.data('id')) {
+				$(this).css('color', 'blue');
+			}
+			// $(this).addClass('onair');
+			// _siblings.removeClass('onair');
 
 		} // onPlayAnotherVideo
 
