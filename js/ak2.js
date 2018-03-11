@@ -209,12 +209,7 @@ $(function () {
 
 		   			// init
 				   	$playerChild.attr('src', _cue[0]);
-						$playerChild.data('id', $('.player-child').attr('src'));
-
-						if ($playerChild.attr('src') === $playerChild.data('id')) {
-							$firstRecord.css('color', 'blue');
-						}
-				   	// $firstRecord.addClass('onair');
+				   	$firstRecord.addClass('onair');
 
 		  		});
 			}
@@ -257,14 +252,9 @@ $(function () {
 			_siblings = $(this).siblings();
 
 			$playerChild.attr('src', _cue[_vindex]);
-			$playerChild.data('id', $playerChild.attr('src'));
 
-
-			if ($playerChild.attr('src') === $playerChild.data('id')) {
-				$(this).css('color', 'blue');
-			}
-			// $(this).addClass('onair');
-			// _siblings.removeClass('onair');
+			$(this).addClass('onair');
+			_siblings.removeClass('onair');
 
 		} // onPlayAnotherVideo
 
