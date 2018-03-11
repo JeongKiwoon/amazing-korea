@@ -251,7 +251,7 @@ $(function () {
 			_vindex = $(this).data('index');
 			_siblings = $(this).siblings();
 
-			history.pushState({data: push}, '', '/' + _vindex);
+			history.pushState({}, '', '/' + _vindex);
 
 			$playerChild.attr('src', _cue[_vindex]);
 			$(this).addClass('onair');
