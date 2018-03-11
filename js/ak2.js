@@ -190,8 +190,10 @@ $(function () {
 				var $data = $(this).data('json');
 
 				$.getJSON('data/' + $data +'.json', function (data) {
-			   		$.each(data, function(key, value) {
+						history.pushState(data, '', './' + $data);
+			   		$.each(history.state, function(key, value) {
 			   			_cue.push(value.url);
+
 			   			$playListChild.append(
 								'<li class="record" data-index="' + i +'" data-history="' + value.num + value.author + '">'
 									+ '<div class="num record-item">' + value.num + '</div>'
