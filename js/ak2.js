@@ -190,8 +190,7 @@ $(function () {
 				var $data = $(this).data('json');
 
 				$.getJSON('data/' + $data +'.json', function (data) {
-						history.pushState(data, '', './' + $data);
-			   		$.each(history.state, function(key, value) {
+			   		$.each(data, function(key, value) {
 			   			_cue.push(value.url);
 
 			   			$playListChild.append(
@@ -247,13 +246,10 @@ $(function () {
 		function onPlayAnotherVideo(e) {
 			e.preventDefault();
 
-			var _vindex, _siblings, _history;
+			var _vindex, _siblings;
 
 			_vindex = $(this).data('index');
 			_siblings = $(this).siblings();
-			_history = $(this).data('history');
-
-			// history.pushState({}, '', '/' + _history);
 
 			$playerChild.attr('src', _cue[_vindex]);
 			$(this).addClass('onair');
