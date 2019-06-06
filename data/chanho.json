@@ -1,35 +1,27 @@
 {
+	
 	"item1":
 	{
-		"url": "https://www.youtube.com/embed/4RjFDghUMkQ",
-		"num": 1,
-		"author": "s.b jo",
-		"title": "박찬호 98마일 -다시 시작하는 도전-",
-		"runtime": "03:54"
-	},
-	
-	"item2":
-	{
 		"url": "https://www.youtube.com/embed/BmRWyikQjoY",
-		"num": 2,
+		"num": 1,
 		"author": "Timothy Moore",
 		"title": "약물시대 박찬호의 전성기 [vs 샌디에이고 13K 2H]",
 		"runtime": "20:00"
 	},
 
-	"item3":
+	"item2":
 	{
 		"url": "https://www.youtube.com/embed/BVRrU3__eWs",
-		"num": 3,
+		"num": 2,
 		"author": "김건우",
 		"title": "Chan-Ho Park Career Highlight",
 		"runtime": "01:18"
 	},
 
-	"item4":
+	"item3":
 	{
 		"url": "https://www.youtube.com/embed/k_clXhJsay0",
-		"num": 4,
+		"num": 3,
 		"author": "janmdotorg",
 		"title": "Chan Ho Park",
 		"runtime": "03:48"
