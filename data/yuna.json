@@ -2,47 +2,20 @@
 	
 	"item1":
 	{
-		"url": "https://youtu.be/Jsl7N5Ppw2Q",
-		"num": 1,
-		"author": "싱싱정보",
-		"title": "김연아의 마지막 은퇴 무대, 소치 갈라쇼",
-		"runtime": "04:13"
-	},	
-	
-	"item2":
-	{
 		"url": "https://www.youtube.com/embed/b5SDN7NP-Og",
-		"num": 2,
+		"num": 1,
 		"author": "SassyBondgirl9",
 		"title": "Yuna Kim - Send In The Clowns @ Korean Nationals 2014 (No Commentary)",
 		"runtime": "06:32"
 	},
 
-	"item3":
+	"item2":
 	{
-		"url": "https://www.youtube.com/embed/_3gC3A0EfK4",
-		"num": 3,
+		"url": "https://www.youtube.com/embed/Jsl7N5Ppw2Q",
+		"num": 2,
 		"author": "싱싱정보",
 		"title": "김연아 넘사벽시절 죽음의무도로 세계신기록 내던 순간",
 		"runtime": "05:20"
-	},
-
-	"item4":
-	{
-		"url": "https://www.youtube.com/embed/otIiYPHkHSA",
-		"num": 4,
-		"author": "싱싱정보",
-		"title": "김연아 월드 첫출전 쇼트 세계신기록, 해설 주의",
-		"runtime": "06:37"
-	},
-
-	"item5":
-	{
-		"url": "https://www.youtube.com/embed/4AKSLNzHpes",
-		"num": 5,
-		"author": "SassyBondgirl9",
-		"title": "Yuna Kim - Les Miserables @ 2013 Worlds (Mixed Commentary)",
-		"runtime": "08:48"
 	}
 
 }
